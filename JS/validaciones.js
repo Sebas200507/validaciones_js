@@ -167,7 +167,7 @@ function validarTerminos(){
     }
 }
 
-document.getElementById('terminos').addEventListener('input', validarTerminos);
+document.getElementById('terminos').addEventListener('change', validarTerminos);
 
 
 const formulario = document.getElementById('formulario');
